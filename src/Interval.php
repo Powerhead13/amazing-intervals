@@ -53,7 +53,7 @@ class Interval
     /**
      * @param int $id
      */
-    public function setId(int $id): void
+    public function setId(int $id)
     {
         $this->id = $id;
     }
@@ -81,7 +81,7 @@ class Interval
      * @param mixed $dateStart
      * @throws Exception
      */
-    public function setDateStart($dateStart): void
+    public function setDateStart($dateStart)
     {
         if(!$dateStart instanceof DateTime) {
             $dateStart = new DateTime($dateStart);
@@ -112,7 +112,7 @@ class Interval
      * @param mixed $dateEnd
      * @throws Exception
      */
-    public function setDateEnd($dateEnd): void
+    public function setDateEnd($dateEnd)
     {
         if(!$dateEnd instanceof DateTime) {
             $dateEnd = new DateTime($dateEnd);
@@ -131,7 +131,7 @@ class Interval
     /**
      * @param float $price
      */
-    public function setPrice(float $price): void
+    public function setPrice(float $price)
     {
         $this->price = $price;
     }
@@ -147,7 +147,7 @@ class Interval
     /**
      * @param int $propertyId
      */
-    public function setPropertyId(int $propertyId): void
+    public function setPropertyId(int $propertyId)
     {
         $this->propertyId = $propertyId;
     }
