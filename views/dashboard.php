@@ -37,7 +37,7 @@
 
 
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button class="btn btn-warning mb-1" id="btn-clear">Clear user data</button>
+        <button class="btn btn-warning mb-1" id="btn-clear" title="Clear user data">Clear</button>
         <img src="/img/loader.gif" class="loader-clear" />
 
     </div>

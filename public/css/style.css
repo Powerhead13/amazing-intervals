@@ -48,7 +48,7 @@ kbd.int {
 
 .controls {
     display: inline-block;
-    width: 230px;
+    width: 290px;
 }
 .controls button {
     display: none;
