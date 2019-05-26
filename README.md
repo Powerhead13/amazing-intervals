@@ -1,6 +1,6 @@
 # Amazing intervals
 
-Incredable system of injecting date ranges into database in optimal way
+Incredible system of injecting date ranges into database in optimal way
 
 
 ### Requirements
