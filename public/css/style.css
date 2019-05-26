@@ -1,0 +1,55 @@
+.form-add input {
+    width: 100pt !important;
+}
+input#price {
+    width: 50pt !important;
+}
+.loader-add, .loader-clear {
+    width: 30px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+#intervals {
+    min-height: 40px;
+}
+
+#api-error {
+    display: none;
+    max-width: 600px;
+}
+
+kbd {
+    /*visibility: hidden;*/
+    margin-right: 10px;
+}
+
+#explain, #explain-show {
+    display: none;
+}
+
+#explain-show {
+    margin-top: 10px;
+}
+
+#explain-show  .k {
+    text-align: right;
+    width: 100px;
+}
+#explain-show td {
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+kbd.int {
+    cursor: pointer;
+    padding: .1rem .2rem;
+}
+
+.controls {
+    display: inline-block;
+    width: 230px;
+}
+.controls button {
+    display: none;
+}
