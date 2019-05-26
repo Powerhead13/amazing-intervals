@@ -123,7 +123,7 @@ class Interval
     /**
      * @return float
      */
-    public function getPrice(): ?float
+    public function getPrice()
     {
         return $this->price;
     }
