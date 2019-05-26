@@ -1,5 +1,6 @@
 .form-add input {
     width: 100pt !important;
+    font-size: .75rem;
 }
 input#price {
     width: 50pt !important;
@@ -19,7 +20,6 @@ input#price {
 }
 
 kbd {
-    /*visibility: hidden;*/
     margin-right: 10px;
 }
 
