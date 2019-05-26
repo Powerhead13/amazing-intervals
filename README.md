@@ -25,6 +25,8 @@ CREATE TABLE `interval` (
 ) ENGINE=InnoDB;
 ```
 
+Configure `conf/db.ini`
+
 Run http server on document root `public`
 
 ```
