@@ -6,7 +6,7 @@ Incredible system of injecting date ranges into database in optimal way
 ### Requirements
 
 ```
-PHP 7.2
+PHP 7.0
 MySQL 5.6
 ```
 
@@ -21,7 +21,7 @@ CREATE TABLE `interval` (
   `price` float NOT NULL,
   `property_id` int(11) unsigned NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `property_date` (`property_id`,`date_start`),
+  UNIQUE KEY `property_date` (`property_id`,`date_start`)
 ) ENGINE=InnoDB;
 ```
 

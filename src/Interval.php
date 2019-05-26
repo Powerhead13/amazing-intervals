@@ -45,7 +45,7 @@ class Interval
     /**
      * @return int
      */
-    public function getId(): ?int
+    public function getId()
     {
         return $this->id;
     }
@@ -69,7 +69,7 @@ class Interval
     /**
      * @return null|string
      */
-    public function getDateStartFormatted(): ?string
+    public function getDateStartFormatted()
     {
         if($this->dateStart) {
             return $this->getDateStart()->format("Y-m-d");
@@ -100,7 +100,7 @@ class Interval
     /**
      * @return null|string
      */
-    public function getDateEndFormatted(): ?string
+    public function getDateEndFormatted()
     {
         if($this->dateEnd) {
             return $this->getDateEnd()->format("Y-m-d");
@@ -139,7 +139,7 @@ class Interval
     /**
      * @return int
      */
-    public function getPropertyId(): ?int
+    public function getPropertyId()
     {
         return $this->propertyId;
     }
