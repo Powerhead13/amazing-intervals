@@ -225,13 +225,6 @@ class IntervalModel
             if($updating == $interval) {
                 return $pool;
             }
-            // Only price changed. 1 UPDATE operation needed
-//            elseif(
-//                $updating->getDateStart() == $interval->getDateStart() &&
-//                $updating->getDateEnd() == $interval->getDateEnd()) {
-//                $pool->addInsertOrUpdate($interval);
-//                return $pool;
-//            }
         }
 
         /**
